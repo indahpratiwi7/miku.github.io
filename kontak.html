@@ -1,0 +1,33 @@
+<html>
+    <head title="hubungi kami">
+       <link rel="stylesheet" href="style.css">
+    <script>
+    function kirimPesan(event) {
+      alert("Terimakasih atas pesanannya. Pesan Anda berhasil dikirim ke agen pemasaran kami,untuk respon cepat silakan langsung via WA Chat ke nomor hp 08981842265 (yudi)");
+    }
+  </script>
+
+    
+    </head>
+<body>
+ <div id=header> 
+    <h1 id=logo>kontak kami di warung miku</h1> 
+    <ul id=menu> 
+    <li><a href="index.html">halaman muka</a></li> 
+    <li><a href="kontak.html">kontak</a></li> 
+    </ul> 
+    </div>
+<section class="content">
+    <div id="tentang" class="card">
+ Silahkan isi nama, alamat dan no hp(whatsapp) anda agar staf pemasaran kami bisa memproses pesanan anda
+Apabila anda ingin memesan.<br>untuk respon cepat bisa kirimkan WA chat ke nomor hp 08981842265 (yudi).
+<form onsubmit="kirimPesan(event)">
+        <input type="text" width="20" name="nama" placeholder="Isi Nama Anda" required />
+        <br><input type="text" width="20" name="hp" placeholder="isi nomor HP WA Anda" required />
+        <br><textarea name="pesan" rows="4" placeholder="Tulis pesanan Anda di sini..." required></textarea>
+        <br><button type="submit">Kirim Pesan</button>
+      </form>
+      </div>
+      </section>
+    </body>
+</html>

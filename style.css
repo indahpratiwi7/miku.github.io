@@ -1,0 +1,117 @@
+*{
+ margin:0;
+ padding:0;
+font-family:Ūsegoe uiŪ,arial,sans-serif;
+color: rgb(80, 80, 158);
+}
+
+body{
+     background-color: #819fe1;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+   font-size: 14px;
+   }
+
+h1,h2,h3,h4,h5,h6{
+font-family:"Museo Slab 500", impact,arial,sans-serif;
+font-weight: normal;
+color: rgb(49, 49, 135);
+} 
+ .content {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(62, 56, 218);
+    margin-bottom: 2rem;
+  }
+
+#wrapper{
+    width:720px;
+    margin:0 auto;
+   }
+
+#header{
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding:30px 0
+   }
+
+#logo{
+    font-family:ŪMuseo Slab 500Ū, impact, sans-serif;
+    float:left;
+    font-size:40px;
+    } 
+    
+#menu{
+    float:right;
+    list-style:none;
+    margin-top:10px;
+    }
+    #menu li{ display: inline }
+    #menu li a{
+    padding:5px 10px;
+    border-right: 1px dashed #aeb59c;
+    text-decoration:none;
+    color: rgb(62, 56, 218);
+    }
+    #menu li:last-child a{ border-right:none } 
+
+#slideshow{
+    position:relative;
+    } 
+    
+#slideshow h1{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    font-weight:normal;
+    }
+
+#slideshow h1 a{
+    color: rgb(62, 56, 218);
+    text-decoration:none;
+    font-family:"Museo Slab 500",impact,sans-serif;
+    font-weight: normal;
+    } 
+
+#langkah{
+    overflow:hidden;
+    background:white;
+    margin:20px 0;
+    }
+    #langkah h2{ padding:10px }
+    #langkah .kolom{
+    width:220px;
+    margin:10px;
+    padding:0 30px 0 0;
+    float:left;
+    background:url("images/langkah.jpg") right top no- repeat;
+    }
+    #langkah .kolom:last-child{background:none;} 
+
+    #footer{
+        border-top:1px dashed #aeb59c;
+        padding:10px;
+       }
+       #footer p{ float:left }
+       #footer-menu{
+        float:left;
+       margin-left:30px;
+       list-style:none;
+       }
+       #footer-menu li{
+        display:inline;
+       margin-right:20px;
+       }
+#footer-menu li a{
+    color:#777;
+    text-decoration:none; 
+
+}
